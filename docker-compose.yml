@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  server:
+    build: .
+    entrypoint: /bin/bash
+    stdin_open: true
+    tty: true
